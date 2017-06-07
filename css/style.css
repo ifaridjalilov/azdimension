@@ -1,0 +1,24 @@
+.color-default {
+  color: #00a498 !important;
+}
+
+.top-space {
+  margin-top: 40px;
+}
+
+.jumbotron-bg {
+  background: #333 url(../images/bg1.jpg) no-repeat top center;
+  background-size: cover;
+  color: #fff;
+  height: 500px;
+  overflow: none;
+  padding-top: 140px;
+}
+
+.jumbotron-bg p {
+  margin: 20px 0 40px;
+}
+
+.game-logo {
+  margin-top: 20px;
+}
