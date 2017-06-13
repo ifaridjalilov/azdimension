@@ -1,13 +1,50 @@
-.color-default {
-  color: #00a498 !important;
+body {
+  font-family: 'Overpass', sans-serif;
+  background-color: white;
+  color: #111;
+}
+
+h1, nav {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+}
+
+section {
+  margin: 50px 0;
 }
 
 .top-space {
   margin-top: 40px;
 }
 
-section {
-  padding: 80px 0;
+nav a {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #555 !important;
+}
+
+.navbar-brand {
+  padding: 8px;
+}
+
+.navbar-default {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.logo {
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  color: black !important;
+  font-size: 20px;
+  border: 2px solid black;
+  line-height: 1;
+  padding: 5px;
+  margin: 0;
+}
+
+.logo span {
+  color: #00a498;
 }
 
 .jumbotron-bg {
@@ -16,7 +53,8 @@ section {
   color: #fff;
   height: 500px;
   overflow: none;
-  padding-top: 140px;
+  padding: 110px 0 0;
+  margin: 51px 0 0;
 }
 
 .jumbotron-bg p {
@@ -24,13 +62,13 @@ section {
 }
 
 .game-logo {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .img-dimensions {
   position: relative;
   width: 100%;
-  height: 270px;
+  height: 200px;
   overflow: hidden;
 }
 
@@ -39,6 +77,11 @@ section {
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+}
+
+.heading {
+  text-align: center;
+  margin: 0 0 50px;
 }
 
 .overlay {
@@ -59,9 +102,9 @@ section {
 }
 
 .img-dimensions:hover .img-scale {
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .img-dimensions:hover img {
@@ -82,10 +125,63 @@ section {
 
 .post-content {
   padding: 20px 10px;
-  height: 100px;
   overflow: hidden;
 }
 
-.main-btn-style {
+.post-content h2 {
+  font-weight: lighter;
+}
+
+.main-btn {
+  padding: 24px;
+  margin: 6px;
+  border: 2px solid black;
+  font-size: 20px;
+  line-height:0.6;
+  color: #000;
+  transition: 0.2s;
+}
+
+.main-btn:hover {
+  padding: 28px;
+  margin: 2px;
+  color: #000;
+}
+
+.main-btn:active {
+  box-shadow: 0 0 0 1px #000;
+}
+
+.social-media {
+  margin-top: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+.social-media li {
+  display: inline-block;
+  padding: 0 6px;
+}
+
+.social-media li a {
+  font-size: 20px;
   color: #00a498;
+}
+
+.social-media li a:hover {
+  color: #11b5a9;
+}
+
+#main-footer {
+  padding-top: 20px;
+  background-color: #ddd;
+}
+
+#main-footer .logo {
+  margin: 10px 0 20px;
+}
+
+.copyright {
+  color: #555;
+  margin: 20px;
 }
