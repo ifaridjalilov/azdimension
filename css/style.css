@@ -79,11 +79,6 @@ nav a {
   transition: all 0.3s;
 }
 
-.heading {
-  text-align: center;
-  margin: 0 0 50px;
-}
-
 .overlay {
   position: absolute;
   top: 0;
@@ -121,6 +116,11 @@ nav a {
   font-size: 20px;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+.heading {
+  text-align: center;
+  margin: 0 0 50px;
 }
 
 .post-content {
