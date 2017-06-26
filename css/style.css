@@ -36,7 +36,27 @@ nav a {
 
 .heading {
   text-align: center;
-  margin: 0 0 50px;
+  margin: 0 0 24px;
+}
+
+.cool-hr {
+  padding: 0;
+  border: none;
+  border-top: solid 1px #000;
+  text-align: center;
+  margin: 0 auto 50px;
+}
+
+.cool-hr::after {
+  content: "\f111";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 1em;
+  padding: 0 0.5em;
+  background-color: #fff;
+  color: #0;
 }
 
 /* LOGO */
@@ -119,6 +139,10 @@ nav a {
   padding: 8px;
 }
 
+.navbar-default::before {
+  filter: blur(5px);
+}
+
 .navbar-default {
   background: rgba(255, 255, 255, 0.9);
 }
@@ -158,8 +182,10 @@ nav a {
 }
 
 .post-img:hover img {
-  -webkit-transform: scale(1.15) rotate(5deg);
-          transform: scale(1.15) rotate(5deg);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: blur(2px);
+          filter: blur(2px);
 }
 
 .post-img .overlay {
